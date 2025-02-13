@@ -23,10 +23,12 @@ body{
 }
 .arrows:hover{
     transform: scale(1.1);
+    cursor: pointer;
 }
 .salohimg:hover{
     transform: scale(1.1);
     transition: 0.5s;
+    cursor: pointer;
 }
 
 
@@ -41,6 +43,7 @@ margin-top: 130px;
 .salohkv:hover{
 transform: scale(1.1);
 transition: 0.5s;
+cursor: pointer;
 }
 
                                               /* 4-ish */
@@ -69,6 +72,7 @@ footer{
  input:hover{
     transform: scale(1.1);
     transition: 0.5s;
+    cursor: pointer;
  }
  button:hover{
     transform: scale(1.1);

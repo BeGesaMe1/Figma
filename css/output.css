@@ -560,6 +560,9 @@
     clip: auto;
     white-space: normal;
   }
+  .\!relative {
+    position: relative !important;
+  }
   .absolute {
     position: absolute;
   }
@@ -779,8 +782,11 @@
   .aspect-square {
     aspect-ratio: 1 / 1;
   }
-  .h-\[50vh\] {
-    height: 50vh;
+  .h-\[15vh\] {
+    height: 15vh;
+  }
+  .h-\[40vh\] {
+    height: 40vh;
   }
   .h-screen {
     height: 100vh;
@@ -1422,6 +1428,9 @@
   .bg-\[\#0088cc\] {
     background-color: #0088cc;
   }
+  .bg-\[black\] {
+    background-color: black;
+  }
   .bg-\[color\:var\(--my-color\)\] {
     background-color: var(--my-color);
   }
@@ -1648,6 +1657,9 @@
   .align-top {
     vertical-align: top;
   }
+  .text-\[40px\] {
+    font-size: 40px;
+  }
   .leading-none {
     --tw-leading: 1;
     line-height: 1;
@@ -1724,6 +1736,9 @@
   }
   .\[color\:red\]\/50\! {
     color: color-mix(in oklab, red 50%, transparent) !important;
+  }
+  .text-\[white\] {
+    color: white;
   }
   .capitalize {
     text-transform: capitalize;
@@ -2076,6 +2091,12 @@
   }
   .\[keywords\:node-addon-api\] {
     keywords: node-addon-api;
+  }
+  .\[vite\:css\] {
+    vite: css;
+  }
+  .\[vite\:html\] {
+    vite: html;
   }
   .backface-hidden {
     backface-visibility: hidden;

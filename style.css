@@ -30,6 +30,10 @@ body{
     transition: 0.5s;
     cursor: pointer;
 }
+.salohimg{
+object-fit: contain;
+width: 170px;
+}
 
 
                                                /* 3-ish */

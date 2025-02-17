@@ -1,5 +1,5 @@
 
-                                                /* 1-ish */
+                                 /* 1-ish */
 .asosiyBoxs1{
     width: 100%;
     height: 600px;
@@ -7,14 +7,29 @@
     background: url("./Assetssalohiddin/Rectangle.png");
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
 body{
     margin: 0%;
     padding:0%;
      overflow-x: hidden; 
 }
-
+@media screen and (max-width:480px) {
+    .asosiyBoxs1{
+        width: 100%;
+        height: 620px;
+        border: 1px solid black;
+        background-color: rgb(205, 202, 202);
+        background-image: none;
+    }
+    body{
+        overflow-x: scroll;
+    }
+    .salohtext{
+        position: relative;
+        top: -100px;
+        left: -20px;
+    }
+}
                                                 /* 2-ish */
 .asosiyBoxs2{
    width: 100%;
@@ -34,7 +49,28 @@ body{
 object-fit: contain;
 width: 170px;
 }
+@media screen and (max-width:480px){
+  .asosiyBoxs2{
+    width: 480px;
+    height: 700px;
+    border: 1px solid rgb(0, 0, 0);
+  }
+  .company{
+   width: 480px;
+   height: 700px;
+   border: 1px solid red;
+   position: relative;
+   top: -300px;
 
+  }
+  .salohimg{
+    display: block;
+    flex-wrap: wrap;
+    
+  }
+
+
+}
 
                                                /* 3-ish */
 .asosiyBoxs3{
@@ -48,6 +84,19 @@ margin-top: 130px;
 transform: scale(1.1);
 transition: 0.5s;
 cursor: pointer;
+}
+@media screen and (max-width:480px){
+    .asosiyBoxs3{
+        width: 480px;
+        height: 1000px;
+        border: 1px solid red;
+    }
+    .kattakv3{
+        flex-wrap: wrap-reverse;
+    }
+    .salohkv{
+     display: block;
+    }
 }
 
                                               /* 4-ish */
@@ -82,4 +131,4 @@ footer{
     transform: scale(1.1);
   cursor: pointer;
     transition: 0.5s;
- }
+ }                                                   

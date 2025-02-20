@@ -7,6 +7,9 @@
     background: url("./Assetssalohiddin/Rectangle.png");
     background-repeat: no-repeat;
     background-size: cover;
+    -webkit-box-shadow: -5px 32px 60px -10px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: -5px 32px 60px -10px rgba(34, 60, 80, 0.2);
+box-shadow: -5px 32px 60px -10px rgba(34, 60, 80, 0.2);
 }
 body{
     margin: 0%;
@@ -40,15 +43,17 @@ body{
     transform: scale(1.1);
     cursor: pointer;
 }
+
 .salohimg:hover{
     transform: scale(1.1);
     transition: 0.5s;
     cursor: pointer;
-    object-fit: cover;
+   object-fit: contain;
 }
 .salohimg{
 object-fit: contain;
 width: 170px;
+
 }
 @media screen and (max-width:490px){
   .asosiyBoxs2{
@@ -57,7 +62,10 @@ width: 170px;
     margin-top: 1px;
    
   }
- 
+  .hr2{
+margin-top: -100px;
+margin-left: -0px
+   }
   .company{
    min-width: 490px;
    min-height: 1000px;
@@ -67,6 +75,9 @@ width: 170px;
    border-radius: 60px;
     position: relative;
     top: -200px;
+    -webkit-box-shadow: -5px 32px 60px -10px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: -5px 32px 60px -10px rgba(34, 60, 80, 0.2);
+    box-shadow: -5px 32px 60px -10px rgba(34, 60, 80, 0.2);
   }
   .salohimg{
    margin-left: 150px;
@@ -89,6 +100,11 @@ width: 100%;
 height: 400px;
 
 margin-top: 130px;
+}
+.salohkv{
+    -webkit-box-shadow: -5px 32px 60px -10px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: -5px 32px 60px -10px rgba(34, 60, 80, 0.2);
+box-shadow: -5px 32px 60px -10px rgba(34, 60, 80, 0.2);
 }
 
 .salohkv:hover{
@@ -132,11 +148,26 @@ margin-top: 100px;
         height: 700px;
         margin-top: 100px;
     }
+    .katta4kv{
+        flex-direction: column;
+        min-width: 490px;
+        min-height: 820px;
+        border: 1px solid red;
+    }
+    .yarimi41{
+     min-width: 490px;
+     border: 1px solid rgb(0, 0, 0);
+     min-height: 350px;
+    }
+    .yarimi42{
+        min-width: 490px;
+        border: 1px solid red;
+    }
 }
 
 
 
-                                                /* 5-ish */
+                                                /* 5-ish
 footer{
     width: 100%;
     height: 800px;
@@ -159,4 +190,4 @@ footer{
     transform: scale(1.1);
   cursor: pointer;
     transition: 0.5s;
- }                                                   
+ }                                                    */

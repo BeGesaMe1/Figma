@@ -63,7 +63,7 @@ width: 170px;
    
   }
   .Pro{
-    border: 1px solid red;
+   
     width: 350px;
     height: 60px;
     position: relative;
@@ -231,7 +231,7 @@ footer{
      text-align: left;
      align-items: left;
      height: 600px;
-     margin-left: -20px;
+     margin-left: -40px;
     }
     .hr5{
       margin-left: 0px;
